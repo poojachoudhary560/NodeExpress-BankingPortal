@@ -28,13 +28,13 @@ app.get('/savings', (req, res) => {
 })
 
 app.get('/credit', (req, res) => {
-    res.render('credit', {
+    res.render('account', {
         account: accounts.credit
     })
 })
 
 app.get('/checking', (req, res) => {
-    res.render('checking', {
+    res.render('account', {
         account: accounts.checking
     })
 })
